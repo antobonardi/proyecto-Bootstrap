@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* font-family: 'Instrument Serif', serif; */
+
+.body-index{
+    background-image: url(../assets/img/mapa.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.color-barra{
+    background-color: #10141B;
+}
+
+.boton{
+    background-color: rgba(216, 206, 206, 0.596);
+    font-family: 'Instrument Serif', serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: black;
+}
+
+.color-letra{
+    color: black;
+}
+
+.letra{
+    font-family: 'Instrument Serif', serif;
+    font-weight: 400;
+    font-size: 1.375rem;
+    color: white;
+}
+
+.letra h5{
+    color: white;
+}
+
+.letra p{
+    color: white;
+}
+
+.img-main img{
+    width: 2.1875rem;
+}
+.tracking-in-contract-bck-top {
+	-webkit-animation: tracking-in-contract-bck-top 10s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract-bck-top 10s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+@-webkit-keyframes tracking-in-contract-bck-top {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(-300px);
+              transform: translateZ(400px) translateY(-300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract-bck-top {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(-300px);
+              transform: translateZ(400px) translateY(-300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  .color-frase{
+    background-color: #10141b83;
+  }
+
+  .letra-frase{
+    font-family: 'Instrument Serif', serif;
+    font-weight: 400;
+    font-size: 1.375rem;
+    color: gold;
+  }
+  
+.img-carrusel{
+    width: 100%;
+    height: 70vh;
+    background-size: contain;
+   
+}
+
+.letra-carrusel h5{
+    flex-wrap: wrap;
+    font-family: 'Instrument Serif', serif;
+    font-weight: 400;
+    font-size: 1.375rem;
+    color: beige;
+    background-color: #50123969;
+    overflow: hidden;
+}
+
+.letra-carrusel p{
+    font-family: 'Instrument Serif', serif;
+    font-weight: 400;
+    font-size: 1.375rem;
+    color: beige;
+    background-color: #50123977;
+    border-radius: .125rem;
+}
+.letra-card-uno{
+    background-color: #52021B;
+    font-family: 'Instrument Serif', serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: white;
+}
+
+.letra-card-uno h5{
+    text-align: center;
+    font-size: 1.5625rem;
+    color: beige;
+    text-decoration:underline;
+} 
+
+.letra-card-uno p{
+    text-align: left;
+    font-size: 20px;
+    color: beige;
+}
+
+.letra-card-dos{
+    background-color: #1D476F;
+    font-family: 'Instrument Serif', serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: white;
+}
+
+.letra-card-dos h5{
+    text-align: center;
+    font-size: 1.5625rem;
+    color: beige;
+    text-decoration:underline;
+} 
+
+.letra-card-dos p{
+    text-align: left;
+    font-size: 1.25rem;
+    color: beige;
+}
+
+.letra-card-tres{
+       background-color: #E79408;
+        font-family: 'Instrument Serif', serif;
+        font-weight: 400;
+        font-size: 1.125rem;
+        color: white;
+    }
+
+    .letra-card-tres h5{
+        text-align: center;
+        font-size: 1.5625rem;
+        color: beige;
+        text-decoration:underline;
+    } 
+    
+    .letra-card-tres p{
+        text-align: left;
+        font-size: 1.25rem;
+        color: beige;
+    }
+
+ .letra-card-cuatro{
+        background-color: #173825;
+         font-family: 'Instrument Serif', serif;
+         font-weight: 400;
+         font-size: 1.125rem;
+         color: white;
+     }
+
+     .letra-card-cuatro h5{
+        text-align: center;
+        font-size: 1.5625rem;
+        color: beige;
+        text-decoration:underline;
+    } 
+    
+    .letra-card-cuatro p{
+        text-align: left;
+        font-size: 1.25rem;
+        color: beige;
+    }
+
+     .letra-card-cinco{
+        background-color: #E79408;
+         font-family: 'Instrument Serif', serif;
+         font-weight: 400;
+         font-size: 1.125rem;
+         color: white;
+     }
+
+     .letra-card-cinco h5{
+        text-align: center;
+        font-size: 1.5625rem;
+        color: beige;
+        text-decoration:underline;
+    } 
+    
+    .letra-card-cinco p{
+        text-align: left;
+        font-size: 1.25rem;
+        color: beige;
+    }
+
+     .letra-card-seis{
+        background-color: #173825;
+         font-family: 'Instrument Serif', serif;
+         font-weight: 400;
+         font-size: 1.125rem;
+         color: white;
+     }
+
+     .letra-card-seis h5{
+        text-align: center;
+        font-size: 1.5625rem;
+        color: beige;
+        text-decoration:underline;
+    } 
+    
+    .letra-card-seis p{
+        text-align: left;
+        font-size: 1.25rem;
+        color: beige;
+    }
+
+     .letra-card-siete{
+        background-color:  #52021B;
+         font-family: 'Instrument Serif', serif;
+         font-weight: 400;
+         font-size: 1.125rem;
+         color: white;
+     }
+
+     .letra-card-siete h5{
+        text-align: center;
+        font-size: 1.5625rem;
+        color: beige;
+        text-decoration:underline;
+    } 
+    
+    .letra-card-siete p{
+        text-align: left;
+        font-size: 1.25rem;
+        color: beige;
+    }
+
+     .letra-card-ocho{
+        background-color: #1D476F;
+         font-family: 'Instrument Serif', serif;
+         font-weight: 400;
+         font-size: 1.125rem;
+         color: white;
+     }
+
+     .letra-card-ocho h5{
+        text-align: center;
+        font-size: 1.5625rem;
+        color: beige;
+        text-decoration:underline;
+    } 
+    
+    .letra-card-ocho p{
+        text-align: left;
+        font-size: 1.25rem;
+        color: beige;
+    }
+
+.boton-card{
+    background-color: #501239;
+    font-family: 'Instrument Serif', serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: white;
+    justify-content: center;
+    gap: .125rem;
+}
+
+.img-card img{
+    width: 1.125rem;
+}
+
+.img-foot img{
+    width: 3.75rem;
+    flex-wrap: wrap;
+    gap: .625rem;
+    padding-left: .9375rem;
+}
+
+.color-footer{
+    background-color: #10141B;
+}
+
+.letra-foot{
+    font-family: 'Instrument Serif', serif;
+    font-weight: 400;
+    font-size: 1.375rem;
+    color: white;
+}
+
+.letra-foot h4{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: overline;
+    justify-content: center;
+}
+
+@media(max-width:425px){
+    .carrusel{
+    display: none;
+    }
+}
+
+/* Tuve que sacar el carrusel porque me desbordaba la pág
+probe dandole overflow hidden u auto y no funcionó 
+tambien probé poniendole un height auto y tampoco funcionó*/
+
+@media(max-width:425px){
+    .letra-frase h4{
+    text-align: center;
+    }
+}
